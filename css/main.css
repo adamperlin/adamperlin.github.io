@@ -2,10 +2,9 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald);
  #Arch{
   background-image: url("../img/archbackground.png");
+  background-size: auto;
   padding-top: 100px;
   padding-bottom: 600px;
-  overflow-x: visible;
-  min-width: 100%;
   color: white;
   font-size: 200%;
 }
@@ -18,7 +17,28 @@
   padding-right: 100px;
 }
 #Arch a {
-  text-align: center;
+  position: absolute;
+  left: 40%;
+}
+#WhyArch  {
+ color: white;
+ background-image: url("../img/archbackground2.png");
+ padding-bottom:  800px;
+}
+#WhyArch p {
+  font-size: 200%;
+  padding: 30px;
+  background-size: cover;
+}
+#Features{
+  padding-bottom: 900px;
+  background-color: #110E0E;
+  color: white;
+}
+#Features button {
+  position: absolute;
+  left: 40%;
+
 }
 .navbar {
   margin-bottom: 0;
@@ -39,8 +59,4 @@ body {
 }
 p {
   font-family: 'Oswald', sans-serif;
-}
-#WhyArch p {
-  padding: 50px;
-  margin: 60px;
 }
