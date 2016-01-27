@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald);
  #Arch{
   background-image: url("../img/archbackground.png");
-  padding-bottom: 600px;
+  padding-bottom: 800px;
   color: white;
   font-size: 200%;
 }
@@ -27,6 +27,7 @@
 #WhyArch p {
   font-size: 200%;
   padding: 30px;
+  padding-bottom: 50px;
   background-size: cover;
 }
 #Features{
@@ -59,7 +60,7 @@
 h1 {
   font-family: 'Oswald', sans-serif;
 }
-/* Add a gray background color and some padding to the footer */
+
 
 body {
   font-family: 'Oswald', sans-serif;
